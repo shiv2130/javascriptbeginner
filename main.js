@@ -32,5 +32,19 @@ console.log(person);
 
 let selectedColors = ['red', 'blue'];
 selectedColors[2] = "Green";
-console.log(selectedColors);
+console.log(selectedColors.length);
 //techincally an array is an object
+
+//functions 
+let number = 1;
+
+function greet(name, lastName) {
+    console.log(" Hello " + name + " " + lastName);
+}
+function square(number){
+   return  number*number;
+}
+
+console.log(square(2));
+greet('John', 'Smith');
+
